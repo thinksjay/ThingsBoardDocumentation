@@ -1,7 +1,7 @@
 # ThingsBoard文档
 ThingsBoard文档可以帮助您设置ThingsBoard，了解该平台并让您的IoT项目在ThingsBoard上运行。
 
-[**THINGSBOARD概述**](https://github.com/thinksjay/ThingsBoardDocumentation/blob/master/%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/0.1%20%E4%BB%80%E4%B9%88%E6%98%AFThingsBoard.md)  [**入门**](https://github.com/thinksjay/ThingsBoardDocumentation/blob/master/%E5%85%A5%E9%97%A8/%E5%85%A5%E9%97%A8.md)    [**指南**]()   
+[**THINGSBOARD概述**](https://github.com/thinksjay/ThingsBoardDocumentation/blob/master/%E6%96%87%E6%A1%A3%E9%A6%96%E9%A1%B5/0.1%20%E4%BB%80%E4%B9%88%E6%98%AFThingsBoard.md)  [**入门**](https://github.com/thinksjay/ThingsBoardDocumentation/blob/master/%E5%85%A5%E9%97%A8/0.%20%E5%85%A5%E9%97%A8.md)    [**指南**](https://github.com/thinksjay/ThingsBoardDocumentation/blob/master/%E6%8C%87%E5%8D%97/0.%20%20%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97.md)   
 
 ## 社区版功能
 + [**属性**]() -平台可以为您的实体分配自定义键值属性（例如，配置，数据处理，可视化参数）。
@@ -59,12 +59,7 @@ ThingsBoard文档可以帮助您设置ThingsBoard，了解该平台并让您的I
 包含有关ThingsBoard [**IoT Gateway**]() 的全面文档。
 
 ## 影片教学
-ThingsBoard Youtube [**频道**]() 包含有用的视频教程，涵盖了各种平台功能。
-
-<video id="video" controls="" preload="none" poster="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.jpg">
-<source id="mp4" src="http://om2bks7xs.bkt.clouddn.com/2017-08-26-Markdown-Advance-Video.mp4" type="video/mp4">
-</video>
-
+ThingsBoard YouKu [**频道**](https://i.youku.com/i/UMjkxNzg5NzQ0OA==?spm=a2hbt.13141534.1_1.d_2_2) 包含有用的视频教程，涵盖了各种平台功能
 
 ## Trendz分析
 包含有关ThingsBoard [**Trendz Analytics**]() 的全面文档。
