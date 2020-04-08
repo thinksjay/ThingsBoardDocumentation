@@ -1,0 +1,56 @@
+@startuml Connectivity diagram
+start
+
+if (您的设备IP是否已启用?) then (yes)
+  if(自定义固件?) then (yes)
+    if(设备命令或频繁上传?) then (yes)
+        if(MQTT?) then (yes)
+            if(你的设备是物联网网关?) then (yes)
+                :ThingsBoard CE MQTT Gateway API;
+            else(no)
+                :ThingsBoard CE MQTT API;
+            endif
+        endif
+    endif
+        if(HTTP?) then (yes)
+            :ThingsBoard CE HTTP API;
+        else(no)
+            if(CoAP?) then (yes)
+                :ThingsBoard CE CoAP API;
+            else(no)
+                :联系我们;
+            endif
+        endif
+  else(no)
+    if(已经连接到后端?) then(yes)
+        if(AWS IoT\nAzure Event Hub\nIBM Watson IoT\nOPC-UA?) then (no)
+            if(Supports MQTT Broker?) then(yes)
+                :MQTT 集成;
+            else(no)
+                if(Supports HTTP callbacks or webhooks?) then(yes)
+                    :HTTP 集成;
+                else(no)
+                    :联系我们;
+                endif
+            endif
+        endif
+    else(no)
+        if(能够配置自定义后端?) then (HTTP)
+            :HTTP 集成;
+        else if(MQTT?) then (MQTT)
+            :MQTT 集成;
+        else(Other)
+            :联系我们;
+        endif
+    endif
+  endif
+else(no)
+    if(您的设备支持\nLoRaWAN\nSigFox\nNB IoT\n or SMS?) then (yes)
+        :平台集成;
+    else(no)
+        :联系我们;
+    endif
+endif
+
+end
+@enduml
